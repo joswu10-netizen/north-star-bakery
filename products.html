@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,14 @@
     <title>North Star Bakery | Products</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <header>
         <img src="bakery-logo.png" alt="North Star Bakery logo with a loaf of bread and wheat">
         <h1>Our Products</h1>
+
         <nav aria-label="Primary navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,7 +29,9 @@
         <section>
             <h2>Breads</h2>
             <img src="bakery-bread.jpg" alt="Assortment of artisan bread loaves displayed at North Star Bakery">
+
             <p>Our breads are baked in small batches with simple ingredients and careful fermentation.</p>
+
             <ul>
                 <li>Country loaves: $6-$9</li>
                 <li>Whole-grain loaves: $7-$10</li>
@@ -49,10 +55,21 @@
             <p>Our cakes are available for birthdays, family gatherings, office celebrations, and other special events.</p>
             <p>Typical price range: $28-$65 depending on size and design. Contact us to discuss a pre-order.</p>
         </section>
+
+        <!-- Touchstone 4: Interactive Favorites Feature -->
+        <section aria-labelledby="favorites-heading">
+            <h2 id="favorites-heading">Choose Your Favorites</h2>
+            <p>Select your favorite bakery products. Your choices will be remembered when you return!</p>
+            <div id="bakery-favorites"></div>
+        </section>
+
     </main>
 
     <footer>
         <p>&copy; 2026 North Star Bakery. Freshly baked for our community.</p>
     </footer>
+
+    <!-- Connect our JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
